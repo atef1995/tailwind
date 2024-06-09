@@ -1,0 +1,18 @@
+/* styles.css */
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: transparent;
+}
+
+.blurred-element {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: rgb(0, 0, 251);
+  border-radius: 50%;
+  filter: blur(20px);
+  transition: transform 0.5s;
+}
